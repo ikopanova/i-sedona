@@ -1,7 +1,7 @@
 # Личный проект «Cедона»
 
 * Студент: [Ирина Копанова](https://htmlacademy.ru/profile/id2364697).
-* Наставник: `Анастасия Ничипорчук`(https://htmlacademy.ru/profile/id612797).
+* Наставник: [Анастасия Ничипорчук](https://htmlacademy.ru/profile/id612797).
 
 ---
 
