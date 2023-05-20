@@ -1,19 +1,11 @@
 # Личный проект «Cедона»
 
-<<<<<<< Updated upstream
 * Студент: [Ирина Копанова](https://htmlacademy.ru/profile/id2364697).
 * Наставник: [Анастасия Ничипорчук](https://htmlacademy.ru/profile/id612797).
-=======
-* Студент: Ирина Копанова (https://htmlacademy.ru/profile/id2364697).
-* Наставник: Анастасия Ничипорчук (https://htmlacademy.ru/profile/id612797).
->>>>>>> Stashed changes
-
----
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
----
 
 ### Памятка
 
