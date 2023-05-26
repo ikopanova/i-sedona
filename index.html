@@ -34,7 +34,9 @@
                     <label for="start">Дата выезда:</label><input type="date" id="start" name="trip-start" value="2023-07-22" min="2023-01-01" max="2024-01-01">
                     <p>На эти даты есть свободные номера. Пока есть.</p>
                     <p>
-                      <label for="age">Взрослые: </label><label for="age">Взрослые: </label>
+                      <label for="age">Взрослые:</label>
+                      <input type="number" step="1" min="1" max="100" value="10" id="age" name="age"/>
+                      <label for="age">Дети:</label>
                       <input type="number" step="1" min="1" max="100" value="10" id="age" name="age"/>
                   </p>
                   <p>
