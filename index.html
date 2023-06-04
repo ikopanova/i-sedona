@@ -4,40 +4,48 @@
     <meta charset="utf-8">
     <title>Седона</title>
   </head>
+
   <body>
-   <header class="page-header">
-    <img class="logo" src"" alt="Логотип.">
-     <nav class="navigation">
-       <ul class="navigation-list">
-        <li class="navigation-item">
-         <a class = "navigation-link" href="index.html">Главная</a>
-        </li>
-        <li class="navigation-item">
-         <a class = "navigation-link" href="index.html">О Cедоне</a>
-        </li>
-        <li class="navigation-item">
-         <a class = "navigation-link" href="catalog.html">Гостиницы</a>
-        </ul>
+    <header class="page-header">
+     <img class="logo" src="" alt="Логотип.">
+      <nav class="navigation">
+        <ul class="navigation-list">
+         <li class="navigation-item">
+          <a class="navigation-link" href="index.html">Главная</a>
+         </li>
+         <li class="navigation-item">
+          <a class="navigation-link" href="#">О Cедоне</a>
+         </li>
+         <li class="navigation-item">
+          <a class="navigation-link">Гостиницы</a>
+         </li>
+         </ul>
+
         <ul class="navigation-list">
         <li class="navigation-item">
-         <a class = "navigation-link" href="#">
+         <a class="navigation-link" href="#">
           <span class="visually-hidden">
           Поиск
           </span>
-          <div class="hystmodal" id="myModal" aria-hidden="true" >
-            <div class="hystmodal__wrap">
-                <div class="hystmodal__window" role="dialog" aria-modal="true">
-                    <button data-hystclose class="hystmodal__close">Close</button>
-                    <h1>Поиск гостиницы в Седоне</h1><div class="close"></div>
-                    <label for="start">Дата заезда:</label><input type="date" id="start" name="trip-start" value="2023-07-22" min="2023-01-01" max="2024-01-01">
-                    <p>Мы не можем отправить вас в прошлое.</p>
-                    <label for="start">Дата выезда:</label><input type="date" id="start" name="trip-start" value="2023-07-22" min="2023-01-01" max="2024-01-01">
-                    <p>На эти даты есть свободные номера. Пока есть.</p>
-                    <p>
-                      <label for="age">Взрослые:</label>
-                      <input type="number" step="1" min="1" max="100" value="10" id="age" name="age"/>
-                      <label for="age">Дети:</label>
-                      <input type="number" step="1" min="1" max="100" value="10" id="age" name="age"/>
+          <div class="hystmodal" id="myModal" aria-hidden="true">
+          <div class="hystmodal-wrap">
+              <div class="hystmodal-window" role="dialog" aria-modal="true">
+                  <button data-hystclose class="hystmodal-close">Close</button>
+                  <h2>Поиск гостиницы в Седоне</h2>
+                 <button class="close">
+                  <svg></svg>
+                 </button>
+                </div>
+
+                  <label for="start">Дата заезда:</label><input type="date" id="start" name="trip-start" value="2023-07-22" min="2023-01-01" max="2024-01-01">
+                  <p>Мы не можем отправить вас в прошлое.</p>
+                  <label for="start">Дата выезда:</label><input type="date" id="start" name="trip-start" value="2023-07-22" min="2023-01-01" max="2024-01-01">
+                  <p>На эти даты есть свободные номера. Пока есть.</p>
+                  <p>
+                    <label for="age">Взрослые:</label>
+                    <input type="number" step="1" min="1" max="100" value="10" id="age" name="age"/>
+                    <label for="age">Дети:</label>
+                    <input type="number" step="1" min="1" max="100" value="10" id="age" name="age"/>
                   </p>
                   <p>
                       <button type="submit">Найти</button>
@@ -52,18 +60,18 @@
           <span class="visually-hidden"></span>
           Избранное
          </span>
-        </a>
-        </li>
-        <li class="navigation-item">
-         <a class = "navigation-link" href="#">
-          <span class="visually-hidden">
-          Кнопка
-          </span>
-        </a>
-        </li>
-      </ul>
-     </nav>
-    </header>
+      </a>
+    </li>
+    <li class="navigation-item">
+     <a class = "navigation-link" href="#">
+     <button type="submit" value="Хочу сюда!"></button>
+    </a>
+    </li>
+  </ul>
+ </nav>
+</header>
+
+    <main>
     <main class="main-index">
       <h1 class="visually-hidden">Седона</h1>
       <img class="logo" src"" alt="Логотип.">
@@ -75,8 +83,7 @@
             <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
          </li>
          <li class="advantages-title">
-         <h3 class="advantages-description">Небольшая
-          площадь</h3>
+         <h3 class="advantages-description">Небольшая площадь</h3>
          <p class="advantages-description">Все достопримечательности находятся очень близко</p>
          </li>
          <li class="advantages-title"
@@ -88,16 +95,17 @@
          <p class="advantages-description">Большинство едет в Гранд Каньон и толпится там</p>
          </li>
          <li class="advantages-title">
-         <h3 class="advantages-description">Там есть
-          мост дьявола</h3>
+         <h3 class="advantages-description">Там есть мост дьявола</h3>
          <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
        </li>
        </ul>
        </section>
+
        <section class="services">
        <h2 class="services-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
        <h3 class="services-title">Опытный персонал и качественное обслуживание!</h3>
        <h2 class="visually-hidden">Преимущества</h2>
+
        <ul class="services-list">
        <li class="services-item">
       <section>
@@ -107,18 +115,20 @@
        </li>
        </ul>
        </section>
+
        <h2 class="appointment-title">Подпишитесь на рассылку</h2>
        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
        <input type="text" id="appointment-title" name="appointment-date" placeholder="Ваш e-mail"><button class="button" type="submit">Подписаться</button>
   </form>
  </section>
 </main>
-<div>
+
   <img class="logo" src"" alt="Логотип.">
   <section class="advantages">
     <h2>Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
     <h3>Опытный персонал и качественное обслуживание!</h3>
   </section>
+
   <ul class="advantages-list">
     <li class="advantages-title"></li>
   </ul>
@@ -126,9 +136,15 @@
     <h2>Заинтересовались?</h2>
     <h3>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</h3>
   </section>
+
   <section>
     <h2>Подпишитесь на рассылку</h2>
+    <form action="#" method="post">
+      <input type="email" placeholder="Ваш e-mail">
+      <button type="submit">Подписаться</button>
+    </form>
   </section>
+
   <span class="visually-hidden">
     Кнопка VK
     </span>
@@ -136,13 +152,34 @@
       Кнопка Telegram
       </span>
       <span class="visually-hidden">
-        Кнопка Youtube
+        Кнопка YouTube
         </span>
+
   <section class="contacts"></section>
   <p class="contacts-adress-text"></p>
   <a class="contacts-address-text"></a>
   <a class="contacts-phone" href="tel:+78128121212">7 812 812-12-12</a>
   <img class="logo" src"" alt="Логотип.">
+
   <footer>
+    <section class="footer-social">
+      <ul class="footer-social-list">
+      <li class="footer-social-item">
+        <a class="button" href="#">
+          <span class="visually-hidden">VK</span>
+        </a>
+        </li>
+      <li class="footer-social-item">
+        <a class="button" href="#"
+        <span class="visually-hidden">Telegram</span>
+        </a>
+      </li>
+      <li class="footer-social-item">
+        <a class="button" href="#"
+        <span class="visually-hidden">YouTube</span>
+      </a>
+      </li>
+      </ul>
+      </section>
   </footer>
 </html>
