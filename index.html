@@ -7,7 +7,7 @@
 
   <body>
     <header class="page-header">
-     <img class="logo" src="image.png" alt="Логотип.">
+     <a href class="logo" src="image.png" alt="Логотип.">
 
       <nav class="navigation">
         <ul class="navigation-list">
@@ -26,15 +26,12 @@
         <li class="navigation-item">
          <a class="navigation-link" href="#">
           <span class="visually-hidden">
-          Поиск
+          Поиск.
           </span>
 
-          <div class="hystmodal" id="myModal" aria-hidden="true">
-          <div class="hystmodal-wrap">
-              <div class="hystmodal-window" role="dialog" aria-modal="true">
                   <h2>Поиск гостиницы в Седоне</h2>
-                  <button type="button" class="hystmodal-close">Close</button>
-                 <button type="button" class="close">
+                  <button type="button" class="close">Close</button>
+                  <button type="button" class="close">
                   <svg></svg>
                  </button>
                 </div>
@@ -45,9 +42,9 @@
                   <p>На эти даты есть свободные номера. Пока есть.</p>
                   <p>
                     <label for="age">Взрослые:</label>
-                    <input type="number" step="1" min="1" max="100" value="10" id="age" name="age"/>
+                    <input type="number" step="1" min="1" max="100" value="10" id="age" name="age">
                     <label for="age">Дети:</label>
-                    <input type="number" step="1" min="1" max="100" value="10" id="age" name="age"/>
+                    <input type="number" step="1" min="1" max="100" value="10" id="age" name="age">
                   </p>
                   <p>
                       <button type="submit">Найти</button>
@@ -60,15 +57,14 @@
 
         <li class="navigation-item">
          <a class="navigation-link" href="#">
-          <span class="visually-hidden"></span>
-          Избранное
+          <span class="visually-hidden">
+          Избранное.
          </span>
       </a>
     </li>
     <li class="navigation-item">
-     <a class="navigation-link" href="#">
-     <button type="submit" value="Хочу сюда!"></button>
-    </a>
+     <a class="navigation-link" href="#"></a>
+    <button type="submit" value="Хочу сюда!"></button>
     </li>
   </ul>
  </nav>
@@ -85,6 +81,7 @@
          <li class="advantages-title">
             <h3 class="advantages-description">Настоящий городок</h3>
             <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            <img src="image.jpg" alt="Пейзаж.">
          </li>
          <li class="advantages-title">
          <h3 class="advantages-description">Небольшая площадь</h3>
@@ -99,6 +96,7 @@
          <p class="advantages-description">Большинство едет в Гранд Каньон и толпится там</p>
          </li>
          <li class="advantages-title">
+          <img src="image.jpg" alt="Пейзаж.">
          <h3 class="advantages-description">Там есть мост дьявола</h3>
          <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
        </li>
@@ -107,27 +105,31 @@
 
        <section class="services">
        <h2 class="services-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
-       <h3 class="services-title">Опытный персонал и качественное обслуживание!</h3>
-       <h2 class="visually-hidden">Преимущества</h2>
+       <p class="services-title">Опытный персонал и качественное обслуживание!</p>
+      </section>
 
        <section>
+       <h2 class="visually-hidden">Преимущества</h2>
        <ul class="services-list">
        <li class="services-item">
-      <img class="logo" src="image.png" alt="Логотип."><h2 class="advantages-title">Жилье</h2><h3>Рекомендуем пожить в настоящем мотеле, всё как в кино!</h3>
-      <img class="logo" src="image.png" alt="Логотип."><h2 class="advantages-title">Еда</h2><h3>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</h3>
-      <img class="logo" src="image.png" alt="Логотип."><h2 class="advantages-title">Сувениры</h2><h3>Не только китайского, но и настоящего местного производства!</h3>
+      <img class="logo" src="image.png" alt="Логотип."><b class="advantages-title">Жилье</b><p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+      <img class="logo" src="image.png" alt="Логотип."><b class="advantages-title">Еда</b><p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+      <img class="logo" src="image.png" alt="Логотип."><b class="advantages-title">Сувениры</b><p>Не только китайского, но и настоящего местного производства!</p>
        </li>
        </ul>
        </section>
 
+       <section>
+      <form>
        <h2 class="appointment-title">Подпишитесь на рассылку</h2>
        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-       <input type="text" id="appointment-title" name="appointment-date" placeholder="Ваш e-mail"><button class="button" type="submit">Подписаться</button>
+       <input type="email" placeholder="Ваш e-mail"><button class="button" type="submit">Подписаться</button>
   </form>
  </section>
 </main>
 
   <img class="logo" src="image.png" alt="Логотип.">
+
   <section class="advantages">
     <h2>Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
     <h3>Опытный персонал и качественное обслуживание!</h3>
@@ -138,34 +140,14 @@
   </ul>
   <section>
     <h2>Заинтересовались?</h2>
-    <h3>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</h3>
-  </section>
-
-  <section>
-    <h2>Подпишитесь на рассылку</h2>
-    <form action="#" method="post">
-      <input type="email" placeholder="Ваш e-mail">
-      <button type="submit">Подписаться</button>
-    </form>
-  </section>
-
-<section>
-  <span class="visually-hidden">
-    Кнопка VK
-    </span>
-    <span class="visually-hidden">
-      Кнопка Telegram
-      </span>
-      <span class="visually-hidden">
-        Кнопка YouTube
-        </span>
-      </section>
-
-  <section class="contacts"></section>
-  <p class="contacts-adress-text"></p>
-  <a class="contacts-address-text"></a>
-  <a class="contacts-phone" href="tel:+78128121212">7 812 812-12-12</a>
-  <img class="logo" src="image.png" alt="Логотип.">
+    <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+    ссылка
+      <li class="navigation-item">
+       <a class="navigation-link" href="#">
+      </a>
+      <button type="submit" value="Поиск гостиницы в седоне"></button>
+      </li>
+</section>
 
   <footer>
     <section class="footer-social">
@@ -187,5 +169,13 @@
       </li>
       </ul>
       </section>
+
+      <section class="contacts">
+        <p class="contacts-adress-text"></p>
+        <a class="contacts-address-text"></a>
+        <a class="contacts-phone" href="tel:+78128121212">7 812 812-12-12</a>
+        <a href class="logo" src="image.png" alt="Логотип.">
+        </section>
   </footer>
+</body>
 </html>

@@ -7,7 +7,7 @@
 
   <body>
    <header class="page-header">
-    <img class="logo" src="image.png" alt="Логотип.">
+    <a href class="logo" src="image.png" alt="Логотип.">
 
      <nav class="navigation">
        <ul class="navigation-list">
@@ -26,14 +26,11 @@
           <li class="navigation-item">
            <a class="navigation-link" href="#">
             <span class="visually-hidden">
-            Поиск
+            Поиск.
             </span>
 
-            <div class="hystmodal" id="myModal" aria-hidden="true">
-              <div class="hystmodal-wrap">
-                  <div class="hystmodal-window" role="dialog" aria-modal="true">
                       <h2>Поиск гостиницы в Седоне</h2>
-                      <button type="button" class="hystmodal-close">Close</button>
+                      <button type="button" class="close">Close</button>
                      <button type="button" class="close">
                       <svg></svg>
                      </button>
@@ -45,9 +42,9 @@
                       <p>На эти даты есть свободные номера. Пока есть.</p>
                       <p>
                         <label for="age">Взрослые:</label>
-                        <input type="number" step="1" min="1" max="100" value="10" id="age" name="age"/>
+                        <input type="number" step="1" min="1" max="100" value="10" id="age" name="age">
                         <label for="age">Дети:</label>
-                        <input type="number" step="1" min="1" max="100" value="10" id="age" name="age"/>
+                        <input type="number" step="1" min="1" max="100" value="10" id="age" name="age">
                     </p>
                     <p>
                         <button type="submit">Найти</button>
@@ -60,15 +57,15 @@
 
       <li class="navigation-item">
        <a class="navigation-link" href="#">
-        <span class="visually-hidden"></span>
-        Избранное
+        <span class="visually-hidden">
+        Избранное.
        </span>
       </a>
       </li>
       <li class="navigation-item">
        <a class="navigation-link" href="#">
-       <button type="submit" value="Хочу сюда!"></button>
       </a>
+      <button type="submit" value="Хочу сюда!"></button>
       </li>
     </ul>
    </nav>
@@ -84,20 +81,19 @@
 
           <section>
           <div>
-          <h2>Инфраструктура</h2>
+          <p>Инфраструктура</p>
           <input type="checkbox"checked><label for="name">Бассейн</label>
           <input type="checkbox"><label for="name">Парковка</label>
           <input type="checkbox"><label for="name">Wi-Fi</label>
           </div>
-
           <div>
-            <h2>Тип Жилья:</h2>
+            <p>Тип Жилья:</p>
             <input type="radio" name="house-type" id="hotel-field"checked><label>Гостиница</label>
             <input type="radio" name="house-type" id="motel-field"><label>Мотель</label>
             <input type="radio" name="house-type" id="apartaments-field"><label>Апартаменты</label>
             </div>
             <div>
-            <h2>Стоимость,₽</h2>
+            <p>Стоимость,₽</p>
             <input type="text" name="appointment-price" id="appointment-task" placeholder="от">
             <input type="text" name="appointment-price" id="appointment-task" placeholder="до">
             <input type="range">
@@ -107,9 +103,9 @@
             <button type="reset" value="сбросить"></button>
             </div>
           </section>
+
           <section>
             <div>
-
         <h2>Найдено гостиниц:38</h2>
         <select "user_profile_color_1">
           <option value="1">Сначала популярное</option>
@@ -129,6 +125,7 @@
       <h2 class="visually-hidden">Список страниц</h2>
       <ul>
       <li>
+        <img src="image.jpg" alt="Пейзаж.">
        <h3>Amara Resort & Spa</h3>
        <p>Гостиница</p><p>От 4000 ₽</p>
        <button class="btn">Подробнее</button><button class="btn">В избранное</button>
@@ -136,12 +133,15 @@
        <img src="image.png" alt="Логотип.">
        </li>
        <li>
-       <h2>Villas at Poco Diablo</h2>
+          <img src="image.jpg" alt="Пейзаж.">
+       <h3>Villas at Poco Diablo</h3>
        <span>Гостиница</span><span>От 5000 ₽</span>
        <button class="btn">Подробнее</button><button class="btn"disabled>В избранном</button>
        <p>Рейтинг:9,2</p>
-       <img src="image.png" alt="Логотип.">
+         <img src="image.png" alt="Логотип.">
        </li>
+       <li>
+       <img src="image.jpg" alt="Пейзаж.">
        <h3>Desert Quail Inn</h3>
        <p>Гостиница</p><p>От 2500 ₽</p>
        <button class="btn">Подробнее</button><button class="btn">В избранное</button>
@@ -149,6 +149,7 @@
        <img src="image.png" alt="Логотип.">
       </li>
       <li>
+        <img src="image.jpg" alt="Пейзаж.">
        <h3>GreenTree Inn</h3>
        <p>Гостиница</p><p>От 1500 ₽</p>
        <button class="btn">Подробнее</button><button class="btn">В избранное</button>
@@ -166,28 +167,14 @@
           </section>
 
   <section>
-    <h2>Подпишитесь на рассылку</h2>
+    <h2 class="appointment-title">Подпишитесь на рассылку</h2>
+    <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
     <form action="#" method="post">
       <input type="email" placeholder="Ваш e-mail">
       <button type="submit">Подписаться</button>
     </form>
   </section>
   </main>
-
-  <section>
-  <span class="visually-hidden">
-    Кнопка VK
-    </span>
-    <span class="visually-hidden">
-      Кнопка Telegram
-      </span>
-      <span class="visually-hidden">
-        Кнопка YouTube
-        </span>
-  </section>
-
-  <a class"contacts-phone" href="tel:+78128121212">7 812 812-12-12</a>
-  <a href class="logo" src"image.png" alt="Логотип.">
 
   <footer>
     <section class="footer-social">
@@ -208,6 +195,13 @@
 </a>
 </li>
 </ul>
+</section>
+
+<section class="contacts"></section>
+<p class="contacts-adress-text"></p>
+<a class="contacts-address-text"></a>
+<a class"contacts-phone" href="tel:+78128121212">7 812 812-12-12</a>
+<a href class="logo" src="image.png" alt="Логотип.">
 </section>
   </footer>
 </body>
